@@ -32,10 +32,10 @@ const Form = () => {
     if (formRef.current) {
       emailjs
         .sendForm(
-          'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-          'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+          'service_xhx9vx4', // Replace with your EmailJS service ID
+          'template_1wsbo68', // Replace with your EmailJS template ID
           formRef.current,
-          'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+          'Y_eiMJy-5exgljIux' // Replace with your EmailJS public key
         )
         .then(
           () => {
